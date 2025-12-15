@@ -10,7 +10,12 @@ public class Stack {
 
         this.maxSize = size;
         this.stackArray = new long[maxSize];
+        this.top = -1;
+    }
 
+    public void push(long j){
+        top++;
+        stackArray[top] = j;
 
     }
 
