@@ -11,7 +11,7 @@ public class AppQueue {
         myQ.insert(12);
         myQ.insert(44);
         myQ.insert(444);
-        myQ.insert(33);
+        myQ.insert(444);
         myQ.view();
 
     }
