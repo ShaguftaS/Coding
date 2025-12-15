@@ -21,6 +21,28 @@ public class Queue {
         nItems++;
     }
 
+    public long remove(){  //remove item from front of the queue
+        long temp = queArray[front];
+        front++;
+        if(front == maxSize){
+            front = 0 ; // we set front back to 0 to utilize the entire array again
+        }
+        nItems --;
+        return temp;
+    }
+
+    public long peekFront(){
+        return  queArray[front];
+    }
+
+    public boolean isEmpty(){
+        return (nItems == 0);
+    }
+
+    public boolean isFull(){
+        return (nItems == maxSize );
+    }
+
     public void view(){
         System.out.println("[ ");
         for(int i =0; i < queArray.length; i++){
