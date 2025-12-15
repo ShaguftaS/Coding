@@ -16,7 +16,12 @@ public class Stack {
     public void push(long j){
         top++;
         stackArray[top] = j;
+    }
 
+    public long pop(){
+        int oldTop = top;
+        top--;
+        return stackArray[oldTop];
     }
 
 
