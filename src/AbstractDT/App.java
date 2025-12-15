@@ -9,7 +9,7 @@ public class App {
         myCount.increment();
         myCount.increment();
 
-        System.out.println(myCount.getCurrentValue());
+        System.out.println(myCount.getCurrentValue() );
 
     }
 
