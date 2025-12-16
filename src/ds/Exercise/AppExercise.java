@@ -16,6 +16,13 @@ public class AppExercise {
         int[] prices1 = {7, 1, 5, 3, 6, 4};
         System.out.println(exe2.maxProfit(prices1));
 
+        Exercise3 exe3 = new Exercise3(5);
+        exe3.push(4);
+        exe3.push(6);
+        exe3.peek();
+        exe3.display();
+
+
     }
 
 
