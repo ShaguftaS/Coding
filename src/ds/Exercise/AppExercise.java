@@ -12,6 +12,10 @@ public class AppExercise {
         System.out.println("Minimum value: " + res[0]);
         System.out.println("Max value: "+ res[1]);
 
+        Exercise2 exe2 = new Exercise2();
+        int[] prices1 = {7, 1, 5, 3, 6, 4};
+        System.out.println(exe2.maxProfit(prices1));
+
     }
 
 
