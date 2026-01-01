@@ -28,7 +28,7 @@ public class Queue {
     public long remove(){  //remove item from front of the queue
         long temp = queArray[front];
         front++;
-        if(front == maxSize){
+        if(front ==maxSize){
 
             front = 0 ; // we set front back to 0 to utilize the entire array again
         }
