@@ -29,7 +29,6 @@ public class Queue {
         long temp = queArray[front];
         front++;
         if(front ==maxSize){
-
             front = 0 ; // we set front back to 0 to utilize the entire array again
         }
         nItems --;
