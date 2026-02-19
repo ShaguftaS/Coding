@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class ThrowsExample {
 
-    public void readFile(String filename){
+    public void readFile(String filename) throws FileNotFoundException, IOException{
 
         FileReader read = new FileReader(filename);
         read.close();
