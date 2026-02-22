@@ -11,6 +11,7 @@ public class Stack {
         this.maxSize = size;
         this.stackArray = new char[maxSize];
         this.top = -1;
+
     }
 
     public void push(char j){
