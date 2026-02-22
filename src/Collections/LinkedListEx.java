@@ -15,5 +15,6 @@ public class LinkedListEx {
         System.out.println(nums.get(2));
         nums.remove(2);
 
+
     }
 }
