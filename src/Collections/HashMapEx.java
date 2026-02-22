@@ -14,6 +14,9 @@ public class HashMapEx {
 
         System.out.println(marks.get("Shagufta"));
 
+        marks.remove("Happy");
+
+
 
     }
 }
