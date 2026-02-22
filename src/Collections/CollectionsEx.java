@@ -16,8 +16,14 @@ public class CollectionsEx {
         nums.add(30);
 
         Collections.sort(nums);
-
         System.out.println(nums);
+
+        Collections.reverse(nums);
+        System.out.println(nums);
+
+        //Search for an element in the list
+        int index = Collections.binarySearch(nums,50);
+        System.out.println(index);
 
     }
 
