@@ -16,6 +16,7 @@ public class CollectionsEx {
         nums.add(30);
 
         Collections.sort(nums);
+
         System.out.println(nums);
 
     }
