@@ -14,5 +14,7 @@ public class ArrayListEx {
 
         System.out.println(nums.get(2));
 
+        nums.remove(2);
+
     }
 }
