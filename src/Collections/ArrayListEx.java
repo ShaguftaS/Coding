@@ -16,5 +16,7 @@ public class ArrayListEx {
 
         nums.remove(2);
 
+        System.out.println(nums);
+
     }
 }
