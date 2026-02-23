@@ -26,6 +26,13 @@ public class ThreadMethodsEx extends Thread{
         Thread.State state = thread.getState();
         System.out.println(state);
 
+        //4 get thread priority 1 to 10
+        System.out.println(thread.getPriority());
+
+        //5 Set thread priority: MAX_PRIORITY =10
+        thread.setPriority(Thread.MAX_PRIORITY);
+        System.out.println(thread.getPriority());
+
 
     }
 
