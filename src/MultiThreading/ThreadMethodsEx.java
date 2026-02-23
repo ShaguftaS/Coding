@@ -33,6 +33,12 @@ public class ThreadMethodsEx extends Thread{
         thread.setPriority(Thread.MAX_PRIORITY);
         System.out.println(thread.getPriority());
 
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
 
     }
 
