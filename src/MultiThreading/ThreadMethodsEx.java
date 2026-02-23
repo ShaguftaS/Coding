@@ -11,16 +11,20 @@ public class ThreadMethodsEx extends Thread{
 
     public static void main(String[] args){
 
-        ThreadMethodsEx th = new ThreadMethodsEx();
+        ThreadMethodsEx thread = new ThreadMethodsEx();
 
         //1. start the thread
-        th.start();
+        thread.start();
 
         //2. Check thread status
 
-        if(th.isAlive()){
+        if(thread.isAlive()){
             System.out.println("Thread is running");
         }
+
+        //3. Get thread state: NEW/RUNNABLE/BLOCKED/ WAITING/ TERMINATED
+        Thread.State state = thread.getState();
+        System.out.println(state);
 
 
     }
