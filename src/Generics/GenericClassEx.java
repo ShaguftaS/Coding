@@ -17,7 +17,7 @@ public class GenericClassEx<T> {
 
         GenericClassEx<Integer> res = new GenericClassEx<>();
 
-        boolean result = res.areEqual(10,20);
+        boolean result = res.notEqual(10,20);
         System.out.println(result);
 
         boolean result2 = res.areEqual(10,10);
@@ -27,6 +27,9 @@ public class GenericClassEx<T> {
 
         boolean result3 = res1.areEqual("shagufta", "shagufta");
         System.out.println(result3);
+
+        boolean result4 = res1.notEqual("shaguftha", "shagufta");
+        System.out.println(result4);
 
 
     }
