@@ -14,5 +14,10 @@ public class GenericClassEx {
         boolean intResult = comp.areEqual(10,10);
 
         System.out.println(intResult);
+
+
+        boolean intResult2 = comp.areEqual("ab","ab");
+
+        System.out.println(intResult2);
     }
 }
