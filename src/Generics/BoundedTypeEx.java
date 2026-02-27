@@ -1,6 +1,6 @@
 package Generics;
 
-public class BoundedTypeEx<T> {
+public class BoundedTypeEx<T extends Number> {
 
     public boolean areEqual(T value1, T value2){
         return value1 == value2;
@@ -11,8 +11,10 @@ public class BoundedTypeEx<T> {
         BoundedTypeEx<Integer> comp = new BoundedTypeEx<>();
         System.out.println(comp.areEqual(10,10));
 
-        BoundedTypeEx<String> comp1 = new BoundedTypeEx<>();
-        System.out.println(comp1.areEqual("abc", "abc"));
+
+        //Compile-time error String does not extend number
+        //BoundedTypeEx<String> comp1 = new BoundedTypeEx<>();
+        //System.out.println(comp1.areEqual("abc", "abc"));
 
 
     }
