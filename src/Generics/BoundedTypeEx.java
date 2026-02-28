@@ -17,6 +17,8 @@ public class BoundedTypeEx<T extends Number> {
         //System.out.println(comp1.areEqual("abc", "abc"));
 
 
+
+
     }
 
 
