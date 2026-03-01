@@ -15,7 +15,7 @@ public class TypeSafetyEx {
 
         nums.add(10);
 
-        nums.add("String");
+        //nums.add("String");
 
 
     }
