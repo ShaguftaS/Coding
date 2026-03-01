@@ -17,5 +17,10 @@ public class ArrayListLambdaEx {
         }
 
 
+        list.forEach((fruit) -> {
+            System.out.println(fruit);
+        });
+
+
     }
 }
