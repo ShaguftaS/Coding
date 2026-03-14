@@ -19,6 +19,8 @@ public class OuterInnerClassEx {
 
         InnerClass in = out.new InnerClass();
 
+        in.displayOuterField();
+
     }
 
 }
