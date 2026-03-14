@@ -4,7 +4,7 @@ public class SmallestNumberInArray {
 
     public static void main(String[] args){
 
-        int[] num = {3, 5, 7, 2, 8};
+        int[] num = { 3, 5, 7, 2, 8};
         int small = smallestElement(num);
         System.out.println(small);
 
