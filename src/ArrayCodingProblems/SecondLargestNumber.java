@@ -6,7 +6,7 @@ public class SecondLargestNumber {
 
         int[] arr= {22, 44, 55, 58, 66, 2, 4, 5};
         int secLarg = findSecondLargest(arr);
-        System.out.println(secLarg);
+        System.out.println("Second largest element in array is:  "+secLarg);
     }
 
     public static int findSecondLargest(int[] num){
