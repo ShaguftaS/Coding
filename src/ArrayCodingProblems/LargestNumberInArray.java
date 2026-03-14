@@ -17,11 +17,7 @@ public class LargestNumberInArray {
             if(large < arr[i]){
                 large = arr[i];
             }
-
-
         }
-
-
         return large;
     }
 }
