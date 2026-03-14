@@ -8,7 +8,7 @@ public class ArrayLength {
 
         int[] numbers = {1, 2, 3, 4, 5}; // input
         int length = arrayLength(numbers);
-        System.out.println(length); // Output: 15
+        System.out.println(length); // Output: 5
 
     }
 
