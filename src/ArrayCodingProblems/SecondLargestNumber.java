@@ -4,7 +4,7 @@ public class SecondLargestNumber {
 
     public static void main(String[] args){
 
-        int[] arr= {22, 44, 55, 58, 66, 2, 4, 5};
+        int[] arr= {10, 7, 23, 45, 8};
         int secLarg = findSecondLargest(arr);
         System.out.println("Second largest element in array is:  "+secLarg);
     }
@@ -18,6 +18,11 @@ public class SecondLargestNumber {
              secondLargest = largest;
              largest = num[i];
          }
+         // Complex case: {10, 7, 23, 45, 30} last if loop will not execute
+            else if( num[i] > secondLargest && num[i] != largest){
+                secondLargest = num[i];
+         }
+
         }
         return secondLargest;
     }
