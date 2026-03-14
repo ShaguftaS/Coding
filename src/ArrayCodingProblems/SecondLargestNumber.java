@@ -18,9 +18,7 @@ public class SecondLargestNumber {
              sec = larg;
              larg = num[i];
          }
-
         }
-
         return sec;
     }
 }
