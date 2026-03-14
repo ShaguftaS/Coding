@@ -10,10 +10,10 @@ public class SecondLargestNumber {
     }
 
     public static int findSecondLargest(int[] num){
-        int larg = num[0];
+        int larg = 0;
         int sec = 0;
 
-        for(int i = 1; i< num.length; i++){
+        for(int i = 0; i< num.length; i++){
          if(larg < num[i]){
              sec = larg;
              larg = num[i];
