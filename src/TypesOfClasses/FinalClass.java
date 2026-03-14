@@ -1,6 +1,6 @@
 package TypesOfClasses;
 
-public class FinalClass {
+final public class FinalClass {
 
     void method(){
         System.out.println("Method in final class");
