@@ -15,7 +15,13 @@ public class ArrayMethodsExample {
         Arrays.sort(array);
         System.out.println(Arrays.toString(array));
 
+        Arrays.fill(array, 1);
+        System.out.println(Arrays.toString(array));
 
+        array = new int[] { 5, 3, 1, 4, 2 };
+
+        int[] newArray = Arrays.copyOf(array, 7);
+        System.out.println(Arrays.toString(newArray));
 
     }
 }
