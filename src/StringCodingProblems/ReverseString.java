@@ -10,6 +10,10 @@ public class ReverseString {
     }
     public static String reverseStringMethod(String s1){
 
+        if(s1 == null){
+            return null;
+        }
+
         StringBuilder rev = new StringBuilder();
 
         for(int i = s1.length() - 1; i >= 0; i --){
