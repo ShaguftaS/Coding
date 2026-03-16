@@ -24,6 +24,10 @@ public class StringExample {
         int index = s1.indexOf('S');
         System.out.println(index);
 
+        //Equals
+        boolean isEqual = s1.equals(s2);
+        System.out.println(isEqual);
+
     }
 
 
