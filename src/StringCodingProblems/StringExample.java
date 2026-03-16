@@ -20,6 +20,10 @@ public class StringExample {
         String sub = res.substring(5, 9);
         System.out.println(sub);
 
+        //IndexOf
+        int index = s1.indexOf('S');
+        System.out.println(index);
+
     }
 
 
