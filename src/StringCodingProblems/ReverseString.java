@@ -18,7 +18,6 @@ public class ReverseString {
 
             rev.append(s1.charAt(i));
 
-
         }
         return rev.toString();
 
