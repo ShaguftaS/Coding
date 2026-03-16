@@ -5,6 +5,7 @@ public class StringExample {
 
         String s1 = "Shagufta";
         String s2 = "Syeda";
+        String s3 = "Shagufta Syeda";
 
 
         // String length
@@ -27,6 +28,33 @@ public class StringExample {
         //Equals
         boolean isEqual = s1.equals(s2);
         System.out.println(isEqual);
+
+        // Returns the char value at specified index
+        char ch = s1.charAt(4);
+        System.out.println(ch);
+
+        //Removes leading and trailing whitespaces
+        String trim = s1.trim();
+        System.out.println(trim);
+
+        // Replaces occurrences of specified target
+        String repl = res.replace("Syeda" , "adeys");
+        System.out.println(repl);
+
+        // Splits the string into an array of substrings
+        String[] part = s3.trim().split(" ");
+        for(String i : part){
+
+            System.out.println(i.trim());
+
+        }
+
+        // Converts the string into a char array
+        char[] cha = s3.toCharArray();
+        for(char c : cha){
+            System.out.println(c);
+        }
+
 
     }
 
