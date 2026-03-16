@@ -6,9 +6,7 @@ public class ReverseString {
 
         String s1 = "Shagufta Syeda";
         String s2 = reverseStringMethod(s1);
-        System.out.println(s2);;
-
-
+        System.out.println(s2);
     }
     public static String reverseStringMethod(String s1){
 
