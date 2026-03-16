@@ -13,10 +13,12 @@ public class StringExample {
         System.out.println("Length of s1 " + l1 + " Length of s2 " + l2);
 
         //Concatenation
-        String res = s1.concat(" , " + s2);
+        String res = s1.concat(", " + s2);
         System.out.println(res);
 
-
+        //SubString -- Retrieves substring from index 5 to 9
+        String sub = res.substring(5, 9);
+        System.out.println(sub);
 
     }
 
