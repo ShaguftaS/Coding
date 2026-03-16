@@ -9,7 +9,6 @@ public class PalindromeChecker {
         boolean res = isPalindrome(pal);
         System.out.println(res);
 
-
     }
 
     public static boolean isPalindrome(String p1){
@@ -31,8 +30,5 @@ public class PalindromeChecker {
         else{
             return false;
         }
-
-
     }
-
 }
