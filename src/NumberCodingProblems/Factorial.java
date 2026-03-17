@@ -11,6 +11,10 @@ public class Factorial {
     }
     public static long calFactorial(int no){
 
+        if(no == 0){
+            return 1;
+        }
+
         long res = 1;
         for(int i = 1; i<= no; i++){
 
