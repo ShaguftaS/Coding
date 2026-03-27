@@ -6,7 +6,7 @@ public class Factorial {
 
         int no = 5;
         long fact = calFactorial( no );
-        System.out.println( "Factorial of the number: " +no+ " is  "+ fact);
+        System.out.println(" Factorial of the number: " +no+ " is  "+ fact);
 
     }
     public static long calFactorial(int no){
