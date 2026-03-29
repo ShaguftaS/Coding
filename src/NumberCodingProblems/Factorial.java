@@ -11,7 +11,7 @@ public class Factorial {
     }
     public static long calFactorial(int no){
 
-        if( no == 0){
+        if( no == 0 ){
             return 1;
         }
 
